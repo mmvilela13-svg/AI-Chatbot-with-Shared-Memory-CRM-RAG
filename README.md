@@ -18,3 +18,19 @@ This workflow solves these issues by:
 	•	Persisting conversational memory
 	•	Using AI and RAG to analyze messages and documents
 	•	Automatically enriching CRM data and notifying stakeholders
+
+# Architecture 
+
+WhatsApp / Instagram
+        ↓
+Channel Normalization
+        ↓
+User Identity Resolution
+        ↓
+Conversation Memory (Redis / DB)
+        ↓
+AI Reasoning + RAG
+        ↓
+CRM & Database
+        ↓
+Management Notifications
